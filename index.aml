@@ -1,0 +1,23 @@
+%(.html5)
+	%head
+		%meta{:charset=>'utf-8'}
+		%title @(core.aml) Bundles
+		%(.css){:href=>'stylesheets/styles.css'}
+		%(.css){:href=>'stylesheets/pygment_trac.css'}
+		%(.js){:src=>'javascripts/scale.fix.js'}
+		%meta{:name=>'viewport', :content=>'width=device-width, initial-scale=1, user-scalable=no'}
+	%body
+		%div.wrapper
+			%header
+				%h1.header @(core.aml)
+				%p.header Bundles hosted by GitHub
+				%ul
+					%li
+						%a.buttons.github{:href=>'https://github.com/aml-bundle'} aml-bundle
+			%section
+				%h3 @(core.aml) Bundles
+				%p
+					Hi there! Thank you very much for your interest in aml. This is a young project and more information is available at
+					%a{:href=>'http://aml-info.org'} aml-info.org
+				%h3 About @(core.aml)
+				%p Abstract Markup Language is a robust and feature rich markup language designed to avoid repetition and promote clear, well-indented markup.
